@@ -1,0 +1,84 @@
+body{
+  background-image: url("../img/page-background-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.7);
+} 
+/*MOBILE MEDIA*/
+
+
+
+
+
+/*DESKTOP LAPTOP MEDIA*/
+div.wrapper-menu{
+  width: 38%;
+  margin-top: 5%;
+  margin-left: 2%;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes wrapper-menu {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes wrapper-menu {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.wrapper-menu {
+  -webkit-animation-name: wrapper-menu;
+  animation-name: wrapper-menu;
+}
+
+a{
+  color:black;
+  text-decoration-line: none;
+  font-family: 'Palatino Linotype', 'Book Antiqua', 'Palatino, serif';
+  font-size: 28px;
+  border: 2px;
+  border-color: lightgray;
+  border-style: solid;
+}
+
+a:active{
+  background-color: rgba(217, 222, 223, 0.8);
+}
+
+[class*="btn-"]{
+  width: 25%;
+  float: left;
+  margin: 5px;
+  padding: 5%;
+  text-align: center;
+  background-color: rgba(217, 222, 223, 0.3);
+}
+
+.btn-home{
+  width: 63%;
+}
+/*
+.btn-about{
+
+}
+
+.btn-work{
+
+}
+
+.btn-resume{
+
+}
+
+.btn-contact{
+
+}
+*/
+.btn-references{
+  width: 63%;
+}
